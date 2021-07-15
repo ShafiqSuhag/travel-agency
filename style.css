@@ -117,4 +117,29 @@ nav ul li>a{
     box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
 }
 
+/* images */
+/* plane */
+.header-image{
+    position: relative;
+}
+.header-image-main{
+    /* z-index: 11; */
+}
+.plane-1, .plane-2{
+    width: 137px;
+    height: 95px;
+    position: absolute;
+}
+.plane-1 img, .plane-2 img{
+    width: 100%;
+}
+.plane-1{
+    left: 0;
+    top: 0;
+}
+.plane-2{
+    top: 250px;
+    right: 0;
+    z-index: 10;
+}
 /* footer styles  */
