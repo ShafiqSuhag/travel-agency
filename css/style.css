@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* background color bg- */
+.ss-bg-yellow{
+    background: #F1A501;
+    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    border-radius: 10px;
+}
+.sg-bg-brown{
+    background: #DF6951;
+    box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
+}
+
+/* color  */
+.ss-text-gray{
+    color: #686D77;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+/* -----------------------------------
+            header
+------------------------------------- */
+
+header{
+    background-image: url(../images/header-image-bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 766px;
+    height: 100vh;
+}
+/* logo  */
+.logo-img img{
+    width: 114.91px;
+    height: 33.99px;
+}
+/* .hero-img img{
+    width: 100%;
+} */
+.hero-img{
+    z-index: 7;
+}
+#plane-1{
+    z-index: 8;
+    left: 30%;
+    top:10%;
+}
+#plane-1, #plane-2{
+    width: 128px;
+    height: 70px;
+}
+#plane-2{
+    z-index: 10;
+    right: 0;
+    bottom: 50%;
+    transform: rotate(10deg);
+}
+
+/* hero section  */
+.hero-subtitle{
+    color: #DF6951;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.hero-title{
+    font-size: 84px;
+    line-height: 89px;
+    font-weight: 700;
+    color: #181E4B;
+}
+
+.hero-description{
+    
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.fa-play-circle{
+    font-size: 52px;
+    border-radius: 26px;
+    color: #DF6951;
+    box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
+}
+
+/* --------------------------------------------------------- 
+                    Custom Media Query
+--------------------------------------------------------- */
+
+
+
+/* small devices */
+@media  screen and (max-width:  768px) {
+   
+}
+/* large device */
+@media  screen and (min-width:  768px) {
+    
+}
+/* Medium */
+@media  screen and (min-width: 576px)  and (max-width: 767px) {
+   
+}
+/* Large */
+@media  screen and (min-width: 768px)  and (max-width: 991px) {
+   
+}
+/* X-Large */
+@media  screen and (min-width: 992px)  and (max-width: 1159px) {
+   
+}
+/* XX-Large */
+@media  screen and (min-width: 1200px)  and (max-width: 1399px) {
+   
+}
+/* XXX-Large */
+@media  screen and (min-width: 1400px) {
+   
+}
