@@ -1,0 +1,21 @@
+
+/* background color bg- */
+.ss-bg-yellow{
+    background: #F1A501;
+    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    border-radius: 10px;
+}
+.sg-bg-brown{
+    background: #DF6951;
+    box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
+}
+
+/* color  */
+.ss-text-gray{
+    color: #686D77;
+}
+
+
+a{
+    text-decoration: none;
+}

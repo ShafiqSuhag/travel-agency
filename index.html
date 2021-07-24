@@ -7,11 +7,12 @@
     <title>Travel Agency</title>
     <!-- external css file  -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
-    <header>
+    <header class="pb-5">
         <!-- navigation  -->
         <section class="navigation-section">
             <div class="container">
@@ -90,49 +91,66 @@
     </header>
     <main>
         <!-- category  -->
-        <section id="category" style="display: none;">
-            <div class="row">
-                CATEGORY
+        <section id="category " >
+            <div class="container category-container">
+                <div class="row my-5">
+                    <p class="section-subtitle">CATEGORY</p>
+                    <br>
+                    <p class="section-title">We Offer Best Services</p>
+                </div>
+                <div class="row my-5">
+                    <!-- offers  -->
+                    <div class="card-group">
+                        <!-- card item  -->
+                        <div class="card border-0">
+                            <div class="category-item d-flex flex-column align-items-center">
+                                <img src="images/calculate.png" class=" " alt="..." >
+                                <div class="card-body">
+                                  <h5 class="card-title category-item-title">Calculated Weather </h5>
+                                  <p class="card-text category-item-description">Built Wicket longer admire do barton vanity itself do in it.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card item  -->
+                        <div class="card border-0">
+                            <div class="category-item d-flex flex-column align-items-center">
+                                <img src="images/mic.png" class=" " alt="..." >
+                                <div class="card-body">
+                                  <h5 class="card-title category-item-title">Best Flights </h5>
+                                  <p class="card-text category-item-description">Engrossed listening. Park gate sell they west hard for the.</p>
+                                  
+                                </div>
+                            </div>
+                            <div class="hover-particle"></div>
+                        </div>
+                        <!-- card item  -->
+                        <div class="card border-0">
+                            <div class="category-item d-flex flex-column align-items-center">
+                                <img src="images/calculate.png" class=" " alt="..." >
+                                <div class="card-body">
+                                  <h5 class="card-title category-item-title">Calculated Weather </h5>
+                                  <p class="card-text category-item-description">Built Wicket longer admire do barton vanity itself do in it.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                          <img src="..." class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- offers ./ -->
+                </div> 
+                <!-- category row end ./ -->
             </div>
-            <div class="row">
-                We Offer Best Services
-            </div>
-            <div class="row">
-                <!-- offers  -->
-                <div class="card-group">
-                    <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      </div>
-                      <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                      </div>
-                      <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                      </div>
-                      <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                      </div>
-                    </div>
-                  </div>
-                <!-- offers ./ -->
-            </div>
+            
+            
 
         </section>
         <!-- top selling  -->
@@ -153,6 +171,7 @@
 
     </footer>
 
+    <div style="height: 400px;"></div>
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/da87f8d09a.js" crossorigin="anonymous"></script>
     <!-- BOOTSTRAP JS  -->
