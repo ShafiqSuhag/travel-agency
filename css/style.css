@@ -107,7 +107,7 @@ header{
     background: #FFFFFF;
     
     border-radius: 36px;
-    /* transition: 1s; */
+    transition: 1s;
     
     z-index: 22;
 }
@@ -116,20 +116,22 @@ header{
 }
 
 .hover-particle{
-    /* display: none; */
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 0;
-    bottom: 0;
+    left: 50px;
+    bottom: 44px;
     background: #DF6951;
     border-radius: 30px 0px 10px;
-    z-index: 20;
+    z-index: 20;   
+    transition: 1s;
+    
 }
-.category-item:hover .hover-particle{
-    display: block;
+.category-item:hover~.hover-particle{
+    left: 0;
+    bottom: 0;
 }
-
+ 
 .category-item img{
     width: 92px;
     height: 78px;
